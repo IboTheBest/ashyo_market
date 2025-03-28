@@ -1,0 +1,40 @@
+{
+  "name": "ashyo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroui/input": "^2.4.16",
+    "@heroui/popover": "^2.3.16",
+    "@heroui/system": "^2.4.12",
+    "@heroui/theme": "^2.4.12",
+    "@heroui/toast": "^2.0.6",
+    "@tanstack/react-query": "^5.69.0",
+    "antd": "^5.24.4",
+    "axios": "^1.8.3",
+    "cookies-next": "^5.1.0",
+    "framer-motion": "^12.5.0",
+    "heroui-cli": "^1.1.0",
+    "lucide-react": "^0.484.0",
+    "next": "15.2.2",
+    "next-intl": "^4.0.2",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "swiper": "^11.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.14",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.0.14",
+    "typescript": "^5"
+  }
+}

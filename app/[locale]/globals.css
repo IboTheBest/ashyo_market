@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../assets/fonts/roboto-v47-latin-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../../assets/fonts/roboto-v47-latin-600.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../assets/fonts/roboto-v47-latin-700.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../../assets/fonts/roboto-v47-latin-900.woff2') format('woff2');
+  }
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.containers{
+    width: 100%;
+    max-width:1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.ant-btn {
+  background-color: #134E9B !important;
+  color: white !important ;
+}
+/* Header SearchBar Media */
+@media (max-width:1139px){
+  .hidden-searchbar{
+    display: none;
+  }
+  .show-mobile{
+    display: block !important; 
+  }
+  .header-category{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media (max-width:360px){
+  .hidden-small-mobile{
+    display: none;
+  }
+}
+
+.ant-Skeleton-paragraph{
+  display: none !important; 
+}
+.ant-Skeleton-title{
+  width: 100% !important;
+}
