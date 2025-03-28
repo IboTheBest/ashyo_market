@@ -73,7 +73,7 @@ const page = () => {
         <div className='containers'>
           <div className=' flex gap-8 items-start flex-wrap'>
             <div className='max-w-[530px] w-full flex items-center] rounded-[10px] overflow-hidden justify-center relative h-[430px] bg-[#EBEFF3]'>
-              <Image className='w-[341] h-[342] object-contain' src={`${IMG_API}/${singleData?.image}`} alt={t("product")} width={341} height={342} priority />
+              <Image className='w-[341] h-[342] object-contain' src={`${IMG_API}/${singleData?.image}`} alt={"product"} width={341} height={342} priority />
               <div className='absolute top-[26px] right-[36px]'>
                 <button onClick={actionClick}><CompareIcon /></button>
                 <button className={`${isLiked ? "text-red-500" : "text-[#545D6A]"}`} onClick={handleLikeClick}><LikeIcon /></button>
@@ -82,7 +82,7 @@ const page = () => {
             <div className='max-w-[474px] w-full'>
               <strong className='text-[32px] leading-[120%] text-[#06172D]'>
                 <span className='text-[#515D6C] fonrt-normal text-[16px] leading-[129%]'>
-                  {t("product_price")}:
+                  {t("price")}:
                 </span> {formatNumber(Number(singleData?.price))}  UZS
               </strong>
               <div className='bg-[#EBEFF3] mt-[36px] rounded-[6px] w-full py-[19px]'>

@@ -19,7 +19,7 @@ const Hero = () => {
     return (
         <section className='py-[20px] bg-[#F3F0F0]'>
             <div className='containers'>
-                <Swiper loop={true} pagination={{ clickable: true }} modules={[Autoplay, Pagination]} className="mySwiper !pt-[37px] sm:!py-[50px]">
+                <Swiper loop={true}  autoplay={{ delay: 2000,  disableOnInteraction: false,}} pagination={{ clickable: true }} modules={[Autoplay, Pagination]} className="mySwiper !pt-[37px] sm:!py-[50px]">
                     {banners.map((item: BannerType) => (
                         <SwiperSlide key={item.id}>
                             <div className='w-[596px] text-center sm:text-start'>

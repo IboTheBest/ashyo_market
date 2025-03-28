@@ -2,7 +2,6 @@ import { ProductType } from '@/types/ProductType';
 import React, { FC } from 'react';
 
 const Features: FC<{ singleProduct: any }> = ({ singleProduct }) => {
-  console.log(singleProduct);
 
   return (
     <table className="max-w-[651px] w-full border-collapse">
